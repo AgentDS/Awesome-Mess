@@ -272,11 +272,12 @@ __ENJOY IT!!__
   - [Setting up a GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
   - [Configuring a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 
-  > __关于Hexo vs Jekyll:__
-  >
-  > - [静态博客框架之Hexo & Jekyll](https://www.jianshu.com/p/ce1619874d34)
-  > - [hexo VS jekyll](https://www.daimajiaoliu.com/daima/47948b785900404)
-  > - [Git Pages + Jekyll/Hexo搭建自己的博客(最全总结你想知道的都在这里了)](https://blog.csdn.net/muzilanlan/article/details/81542917)
+- __关于Hexo vs Jekyll:__
+
+  - [静态博客框架之Hexo & Jekyll](https://www.jianshu.com/p/ce1619874d34)
+  - [hexo VS jekyll](https://www.daimajiaoliu.com/daima/47948b785900404)
+  - [Git Pages + Jekyll/Hexo搭建自己的博客(最全总结你想知道的都在这里了)](https://blog.csdn.net/muzilanlan/article/details/81542917)
+  - [静态博客框架jekyll、hexo和hugo三者之间的区别与差异](https://zhuanlan.zhihu.com/p/368407566)
 
 - 用 GitHub Page + Jekyll 建立个人网站
 
