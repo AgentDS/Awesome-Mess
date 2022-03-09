@@ -1,5 +1,7 @@
 # Awesome-Mess
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 An *awesome* & curated list of anything that I find might be useful for computer science students. Kinda messy but try to organize it well.
 
 Some blogs are in Chinese, and some in English. Hope this repo will be helpful for more people. 
@@ -294,3 +296,4 @@ __ENJOY IT!!__
     - [【五】将博客从jekyll迁移到了hexo ](https://www.cnblogs.com/mo-wang/p/5119967.html)
 
   
+
