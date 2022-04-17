@@ -253,6 +253,7 @@ __ENJOY IT!!__
 - Latex写作与常用machine learning符号写法
   - [machine learning符号写法](https://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/mlmath/)
   - [latex数学符号](http://mohu.org/info/symbols/symbols.htm)
+- 数学公式Latex自动识别[Mathpix Snap](https://mathpix.com/)
 - Python画图
   - [Python科研统计作图Plotnine+Seaborn+matplotlib替代R ggplot2系列！（一）](https://zhuanlan.zhihu.com/p/30933555)
   - 
@@ -278,14 +279,51 @@ __ENJOY IT!!__
   - [hexo VS jekyll](https://www.daimajiaoliu.com/daima/47948b785900404)
   - [Git Pages + Jekyll/Hexo搭建自己的博客(最全总结你想知道的都在这里了)](https://blog.csdn.net/muzilanlan/article/details/81542917)
   - [静态博客框架jekyll、hexo和hugo三者之间的区别与差异](https://zhuanlan.zhihu.com/p/368407566)
+  - [更换博客系统——从jekyll到hexo](https://segmentfault.com/a/1190000002398039)
 
 - 用 GitHub Page + Jekyll 建立个人网站
+
+  - [Jekyll快速开始教程](https://www.jiansoft.net/2020/04/26/Jekyll_quick_start.html)
+
+  - [Jekyll - Static Site Generator|Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB) <font color="Red">(强烈推荐)</font>
+
+  - [Jekyll搭建个人博客-拓展版](https://javef.github.io/2018/02/Jekyll-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E6%8B%93%E5%B1%95%E7%89%88/)
+
+    > 可能会在本地执行`exec jekyll serve`时候报错：``require': cannot load such file -- webrick (LoadError)`，可以通过执行以下来解决：
+    >
+    > ```bash
+    > bundle add webrick
+    > ```
+    >
+    > 参考：[Load error: cannot load such file – webrick](https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417)
+
+  - github上利用jekyll搭建自己的blog的操作顺序？ - 王彦宁的回答 - 知乎 https://www.zhihu.com/question/30018945/answer/50507749
+
+  - [Jekyll theme TeXt: Quick Start](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start)
+
+  - [如何搭建一个独立博客——简明 GitHub Pages与 jekyll 教程](https://www.cnfeat.com/blog/2014/05/11/how-to-build-a-blog/)
+
+  - [Jekyll使用教程笔记 一](https://juejin.cn/post/6844903623567081486)
+
+  - [Jekyll使用教程笔记 二](https://juejin.cn/post/6844903629246169096)
+
+  - [Jekyll使用教程笔记 三](https://juejin.cn/post/6844903629682376711)
+
+  - [Jekyll使用教程笔记 四](https://juejin.cn/post/6844903629934084109)
+
+  - [Jekyll使用教程笔记 五](https://juejin.cn/post/6844903630001160199)
+
+  - [Jekyll使用教程笔记 六](https://juejin.cn/post/6844903632882630664)
+
+  - [菜鸟级jekyll教程(1)](https://waliblog.com/jekyll/2017/11/21/jekyll(1).html)
+
+  - [jekyll 教程入门](https://wenfengsat.github.io/2018/06/19/jekyll%E6%95%99%E7%A8%8B%E5%85%A5%E9%97%A8/)
 
   - 
 
 - 用 GitHub Page + Hexo 建立个人网站
 
-  - 
+  - [GitHub+Hexo 搭建个人网站详细教程](https://zhuanlan.zhihu.com/p/26625249)
 
 - 一些DIY相关blog
 
