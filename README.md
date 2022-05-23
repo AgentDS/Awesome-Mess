@@ -203,13 +203,13 @@ __ENJOY IT!!__
 
 - [如何用SSHFS？让服务器文件系统挂到自己本地系统里方便文件传输](https://blog.csdn.net/myhes/article/details/106712863)
 
-  1. 下载`osxfuse` download
+  1. 下载`osxfuse` 
 
      ```bash
      brew install --cask osxfuse
      ```
 
-  2. 下载`sshfs` 
+  2. 下载`sshfs`  
 
      ```bash
      brew install sshfs
@@ -238,6 +238,12 @@ __ENJOY IT!!__
 
 
 
+### Docker
+
+
+
+
+
 
 
 ## Paper Writing 论文写作
@@ -253,10 +259,19 @@ __ENJOY IT!!__
 - Latex写作与常用machine learning符号写法
   - [machine learning符号写法](https://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/mlmath/)
   - [latex数学符号](http://mohu.org/info/symbols/symbols.htm)
+  - [Paper Writing Tips](https://github.com/MLNLP-World/Paper-Writing-Tips)
 - 数学公式Latex自动识别[Mathpix Snap](https://mathpix.com/)
 - Python画图
   - [Python科研统计作图Plotnine+Seaborn+matplotlib替代R ggplot2系列！（一）](https://zhuanlan.zhihu.com/p/30933555)
-  - 
+- 实验log：wandb.ai
+- 表格的latex代码自动生成https://www.tablesgenerator.com/
+- 时间序列动图的可视化https://flourish.studio/
+- 同义词查询https://www.thesaurus.com/
+- 语言查询https://linggle.com/
+- 用词搭配愈发查询https://www.writefull.com/
+- overleaf上语法矫正Overleaf textarea插件
+- 画图draw.io
+- 文章取名https://acronymify.com/
 
 
 
@@ -285,17 +300,19 @@ __ENJOY IT!!__
 
   - [Jekyll快速开始教程](https://www.jiansoft.net/2020/04/26/Jekyll_quick_start.html)
 
-  - [Jekyll - Static Site Generator|Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB) <font color="Red">(强烈推荐)</font>
+  - [Jekyll - Static Site Generator|Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB) <font color="Red">(强烈推荐highly recommended)</font>
 
   - [Jekyll搭建个人博客-拓展版](https://javef.github.io/2018/02/Jekyll-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E6%8B%93%E5%B1%95%E7%89%88/)
 
     > 可能会在本地执行`exec jekyll serve`时候报错：``require': cannot load such file -- webrick (LoadError)`，可以通过执行以下来解决：
     >
+    > If there is feedback ``require': cannot load such file -- webrick (LoadError)` when executing `exec jekyll serve`, try to use follow command to resolve this:
+    >
     > ```bash
     > bundle add webrick
     > ```
     >
-    > 参考：[Load error: cannot load such file – webrick](https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417)
+    > 参考reference：[Load error: cannot load such file – webrick](https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417)
 
   - github上利用jekyll搭建自己的blog的操作顺序？ - 王彦宁的回答 - 知乎 https://www.zhihu.com/question/30018945/answer/50507749
 
