@@ -304,6 +304,13 @@ __ENJOY IT!!__
 
 - 时间序列动图的可视化https://flourish.studio/
 
+- English Writing
+
+  - [Science Research Writing: For Non-Native Speakers of English](https://redacaocientifica.weebly.com/uploads/6/0/2/2/60226751/science_writing_for_non-native_engish_speakers.pdf)
+  - [The Elements of Style](https://faculty.washington.edu/smcohen/320/Strunk&White.pdf)
+
+
+
 
 
 
