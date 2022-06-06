@@ -249,29 +249,60 @@ __ENJOY IT!!__
 ## Paper Writing 论文写作
 
 - [論文引用格式：如何在學術論文中正確的引用文獻？](https://www.editing.tw/blog/writing/%E8%AB%96%E6%96%87%E5%BC%95%E7%94%A8%E6%A0%BC%E5%BC%8F-%E5%A6%82%E4%BD%95%E5%9C%A8%E5%AD%B8%E8%A1%93%E8%AB%96%E6%96%87%E4%B8%AD%E6%AD%A3%E7%A2%BA%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%87%E7%8D%BB.html)
+
 - [论文写作点滴：合理和有效的引用参考文献](https://www.xiahepublishing.com/2475-7543/MRP-2018-002)
+
 - [Paper Writing Checklist Prepared by Prof. Zheng Zhang, UCSB](https://web.ece.ucsb.edu/~zhengzhang/paper%20writing%20checklist_v2.pdf)
+
+- [如何开始写英文论文？ - 刀客特李的回答 - 知乎](https://www.zhihu.com/question/23684933/answer/125467391)
+
+- 写作模版：[Report Template](./Report Template.doc)
+
 - 文献管理工具：
   - [Zotero](https://www.zotero.org/)：
     - [我的 Zotero 实践汇总 - Hsin的文章](https://zhuanlan.zhihu.com/p/108366072)
-    - 
   - 印象笔记EndNote
-- Latex写作与常用machine learning符号写法
-  - [machine learning符号写法](https://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/mlmath/)
-  - [latex数学符号](http://mohu.org/info/symbols/symbols.htm)
+  - [Mendeley](https://www.mendeley.com/?interaction_required=true)
+  
+- Latex写作
+  
+  - 数学符号
+    - [latex数学符号](http://mohu.org/info/symbols/symbols.htm)
+    - [machine learning符号写法](https://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/mlmath/)
+    - 数学公式Latex自动识别[Mathpix Snap](https://mathpix.com/)
+    - [AxMath](https://www.axsoft.co/axmath/): Interactive WYSIWYG Equation Editor
+  - 表格插入
+    - [Excel2LATEX](https://ctan.org/pkg/excel2latex?lang=en): convert excel spreadsheets to LATEX tables
+    - [LaTeX tables](https://www.latex-tables.com)
+    - [Table Convert Online](https://tableconvert.com/latex-generator)
+    - [Tables Generator](https://www.tablesgenerator.com/)
+  
   - [Paper Writing Tips](https://github.com/MLNLP-World/Paper-Writing-Tips)
-- 数学公式Latex自动识别[Mathpix Snap](https://mathpix.com/)
-- Python画图
+  
+- 语法相关
+  
+  - [Writefull](https://www.writefull.com/): build-in grammar checker in Overleaf
+  - [Textarea](https://chrome.google.com/webstore/detail/overleaf-textarea/iejmieihafhhmjpoblelhbpdgchbckil?hl=en): chrome plugin for enabling Grammarly in Overleaf
+  - [Linggle](https://linggle.com/): Language Reference Search Engines - NLPLab
+  - [THESAURUS](https://www.thesaurus.com/): synonym search
+  - [Ludwig](https://ludwig.guru/): write better language
+  - [Quill Bot](https://quillbot.com/): Paraphraser
+  - [Acronymify](https://acronymify.com/): get a name for a paper
+  
+- 画图相关
+  
   - [Python科研统计作图Plotnine+Seaborn+matplotlib替代R ggplot2系列！（一）](https://zhuanlan.zhihu.com/p/30933555)
-- 实验log：wandb.ai
-- 表格的latex代码自动生成https://www.tablesgenerator.com/
+  - [AxGlyph](https://www.axsoft.co/axglyph/): Scientific Vector Graph Editor
+  - [Diagrams](https://www.diagrams.net/)(draw.io): Security-first diagramming for teams 
+  
+- 代码实验相关
+
+  - [wandb](https://wandb.ai): A tool for better logging
+  - [Optuna](https://optuna.org/): Optimize Your Optimization
+  - [CODELF](https://unbug.github.io/codelf/): find real-world usage variable names
+  - [HyperOpt](http://hyperopt.github.io/hyperopt/): Distributed Asynchronous Hyper-parameter Optimization
+
 - 时间序列动图的可视化https://flourish.studio/
-- 同义词查询https://www.thesaurus.com/
-- 语言查询https://linggle.com/
-- 用词搭配愈发查询https://www.writefull.com/
-- overleaf上语法矫正Overleaf textarea插件
-- 画图draw.io
-- 文章取名https://acronymify.com/
 
 
 
