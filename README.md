@@ -276,7 +276,8 @@ __ENJOY IT!!__
     - [LaTeX tables](https://www.latex-tables.com)
     - [Table Convert Online](https://tableconvert.com/latex-generator)
     - [Tables Generator](https://www.tablesgenerator.com/)
-  
+    - [HTML table convert](https://divtable.com/converter/)
+    
   - [Paper Writing Tips](https://github.com/MLNLP-World/Paper-Writing-Tips)
   
 - 语法相关
