@@ -323,9 +323,10 @@ __ENJOY IT!!__
   
     ```python
     def setup_seed(seed):
-        np.random.seed(SEED)
-        torch.manual_seed(SEED)
-        torch.cuda.manual_seed_all(SEED)
+        np.random.seed(seed)
+        random.seed(seed)
+        torch.manual_seed(seed)
+        torch.cuda.manual_seed_all(seed)
         torch.backends.cudnn.deterministic=True
         torch.backends.cudnn.benchmark = False
     ```
