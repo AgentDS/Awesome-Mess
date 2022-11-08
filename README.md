@@ -245,6 +245,32 @@ __ENJOY IT!!__
 - Python config文件解析
   - [Python常用配置文件ini、json、yaml及python字典读写总结](https://blog.csdn.net/u011119817/article/details/118581908)
   - [YAML for Configuration Files](https://datacrayon.com/posts/programming/python/yaml-for-configuration-files/)
+  
+- wandb](https://wandb.ai): A tool for better logging
+  
+- [Optuna](https://optuna.org/): Optimize Your Optimization
+
+- [CODELF](https://unbug.github.io/codelf/): find real-world usage variable names
+
+- [HyperOpt](http://hyperopt.github.io/hyperopt/): Distributed Asynchronous Hyper-parameter Optimization
+
+- Pytorch相关
+
+  - [高效深度学习：深度学习过程加速技巧集](https://github.com/Mountchicken/Efficient-Deep-Learning)
+
+  - [Some Tricks of PyTorch](https://github.com/lartpang/PyTorchTricks)
+
+  - Pytorch实验可复现性：
+
+    ```python
+    def setup_seed(seed):
+        np.random.seed(seed)
+        random.seed(seed)
+        torch.manual_seed(seed)
+        torch.cuda.manual_seed_all(seed)
+        torch.backends.cudnn.deterministic=True
+        torch.backends.cudnn.benchmark = False
+    ```
 
 
 
@@ -253,21 +279,15 @@ __ENJOY IT!!__
 ## Paper Writing 论文写作
 
 - [論文引用格式：如何在學術論文中正確的引用文獻？](https://www.editing.tw/blog/writing/%E8%AB%96%E6%96%87%E5%BC%95%E7%94%A8%E6%A0%BC%E5%BC%8F-%E5%A6%82%E4%BD%95%E5%9C%A8%E5%AD%B8%E8%A1%93%E8%AB%96%E6%96%87%E4%B8%AD%E6%AD%A3%E7%A2%BA%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%87%E7%8D%BB.html)
-
 - [论文写作点滴：合理和有效的引用参考文献](https://www.xiahepublishing.com/2475-7543/MRP-2018-002)
-
 - [Paper Writing Checklist Prepared by Prof. Zheng Zhang, UCSB](https://web.ece.ucsb.edu/~zhengzhang/paper%20writing%20checklist_v2.pdf)
-
 - [如何开始写英文论文？ - 刀客特李的回答 - 知乎](https://www.zhihu.com/question/23684933/answer/125467391)
-
 - 写作模版：[Report Template](./Report Template.doc)
-
 - 文献管理工具：
   - [Zotero](https://www.zotero.org/)：
     - [我的 Zotero 实践汇总 - Hsin的文章](https://zhuanlan.zhihu.com/p/108366072)
   - 印象笔记EndNote
   - [Mendeley](https://www.mendeley.com/?interaction_required=true)
-  
 - Latex写作
   
   - 数学符号
@@ -283,7 +303,6 @@ __ENJOY IT!!__
     - [HTML table convert](https://divtable.com/converter/)
     
   - [Paper Writing Tips](https://github.com/MLNLP-World/Paper-Writing-Tips)
-  
 - 语法相关
   
   - [Writefull](https://www.writefull.com/): build-in grammar checker in Overleaf
@@ -293,7 +312,6 @@ __ENJOY IT!!__
   - [Ludwig](https://ludwig.guru/): write better language
   - [Quill Bot](https://quillbot.com/): Paraphraser
   - [Acronymify](https://acronymify.com/): get a name for a paper
-  
 - 画图相关
   
   - Python画图
@@ -304,37 +322,7 @@ __ENJOY IT!!__
   - [Diagrams](https://www.diagrams.net/)(draw.io): Security-first diagramming for teams 
   - [iconfont](https://www.iconfont.cn/): 图标库
   - [Color Hunt: Color Palettes for Designers and Artists](https://colorhunt.co/)
-  
-- 代码实验相关
-
-  - [wandb](https://wandb.ai): A tool for better logging
-  
-  - [Optuna](https://optuna.org/): Optimize Your Optimization
-  
-  - [CODELF](https://unbug.github.io/codelf/): find real-world usage variable names
-  
-  - [HyperOpt](http://hyperopt.github.io/hyperopt/): Distributed Asynchronous Hyper-parameter Optimization
-  
-  - [高效深度学习：深度学习过程加速技巧集](https://github.com/Mountchicken/Efficient-Deep-Learning)
-  
-  - [Some Tricks of PyTorch](https://github.com/lartpang/PyTorchTricks)
-  
-  - Pytorch实验可复现性：
-  
-    ```python
-    def setup_seed(seed):
-        np.random.seed(seed)
-        random.seed(seed)
-        torch.manual_seed(seed)
-        torch.cuda.manual_seed_all(seed)
-        torch.backends.cudnn.deterministic=True
-        torch.backends.cudnn.benchmark = False
-    ```
-  
-  - 
-  
 - 时间序列动图的可视化https://flourish.studio/
-
 - English Writing
 
   - [Science Research Writing: For Non-Native Speakers of English](https://redacaocientifica.weebly.com/uploads/6/0/2/2/60226751/science_writing_for_non-native_engish_speakers.pdf)
