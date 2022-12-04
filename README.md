@@ -236,6 +236,72 @@ __ENJOY IT!!__
 
 - [通过SSH远程使用jupyter notebook](https://blog.csdn.net/u014022205/article/details/81025660?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-7.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-7.control)
 
+- 服务器公私钥登陆
+
+  1. 在本地计算机的`～/.ssh`目录下生成密钥对：
+
+     ```bash
+     # in local dir ~/.ssh
+     $ ssh-keygen  <== 建立密钥对
+     Enter file in which to save the key (~/.ssh/id_rsa): sample  <== 自定义名字
+     Enter passphrase (empty for no passphrase):  <== 按 Enter
+     Enter same passphrase again:  <== 按 Enter
+     Your identification has been saved in sample.  <== 私钥
+     Your public key has been saved in sample.pub.  <== 公钥
+     The key fingerprint is:
+     SHA256:xxxxxxxxxxxxxxx/xxxxx xxxxxx.local
+     ```
+
+  2. 在remote服务器上确定存在`~/.ssh`目录，如果没有，创建并改变权限：
+
+     ```bash
+     # in remote dir ~
+     $ mkdir .ssh
+     $ chmod 700 ~/.ssh
+     ```
+
+  3. 在remote服务器上确定存在`~/.ssh/authorized_keys`文件，如果没有，创建并改变权限
+
+     ```bash
+     # in remote dir ~
+     $ cd .ssh
+     # in remote dir ~/.ssh
+     $ touch authorized_keys
+     $ chmod 600 authorized_keys
+     ```
+
+  4. 把本地生成的公钥文件`~/.ssh/sample.pub`发送到remote服务器的`~/.ssh`目录下：
+
+     ```bash
+     # in local dir ~/.ssh
+     $ scp sample.pub [remote user name]@[remote address]:./.ssh/
+     ```
+
+  5. 在remote服务器的`~/.ssh/authorized_keys`中加入`~/.ssh/sample.pub`的内容:
+
+     ```bash
+     # in remote dir ~/.ssh
+     $ cat sample.pub >> authorized_keys
+     ```
+
+  6. 在本地的`~/.ssh/config`文件中加入remote服务器的配置:
+
+     ```bash
+     Host serverA
+         user [用户名]
+         hostname [服务器ip]
+         port [端口号]
+         identityfile ~/.ssh/sample
+     ```
+
+  7. 在本地命令行输入以下命令直接登陆：
+
+     ```bash
+     $ ssh serverA
+     ```
+
+- 
+
 
 
 ### Docker
