@@ -367,6 +367,7 @@ __ENJOY IT!!__
     - [Table Convert Online](https://tableconvert.com/latex-generator)
     - [Tables Generator](https://www.tablesgenerator.com/)
     - [HTML table convert](https://divtable.com/converter/)
+    - [Small Guide to Make Nice Tables](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf)
     
   - [Paper Writing Tips](https://github.com/MLNLP-World/Paper-Writing-Tips)
 - 语法相关
