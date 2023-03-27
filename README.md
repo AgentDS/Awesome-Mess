@@ -300,6 +300,12 @@ __ENJOY IT!!__
      $ ssh serverA
      ```
 
+- 直接kill掉名字中包含`xxxx`字符的所有进程：
+
+  ```bash
+  ps aux | grep -i xxxx | awk '{print $2}' | xargs kill -9
+  ```
+
 - 
 
 
